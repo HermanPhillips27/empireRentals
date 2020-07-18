@@ -1,5 +1,11 @@
-body {
+body.home {
   background-image: url("images/Ecuador-Santa-Cruz-Galapagos-Darwin-Station-Beach-Surfing-Stormtrooper-Backpacking-Backpacker-Travel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.cart {
+  background-image: url("images/maxresdefault.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -8,4 +14,11 @@ body {
   text-align: center;
   font-family: 'Comic Neue', cursive;
   font-family: 'Dancing Script', cursive;
+}
+
+.cartCont {
+  margin-top: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
